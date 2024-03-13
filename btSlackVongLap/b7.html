@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+<!--    + In ra các số từ a đến b số chẵn trong h2, số lẻ trong <h1>;-->
+        <script>
+
+            let a = +prompt(" nhap a:");
+            let b = +prompt("Nhap b");
+            let i;
+            for(i = 0; i <= b; i++){
+                if (i >= a){
+                    if (i % 2 !==0){
+                        document.writeln("<h1>So " + i + "</h1><br>");
+                    }else {
+                        document.writeln("<h2>So " + i + "</h2><br>");
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
